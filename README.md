@@ -41,9 +41,19 @@ Tested end to end with test certificate records:
 
 ## In progress
 
-- **Gemini one-line risk note** in the urgent branch: an HTTP call to Gemini that writes one line on what breaks if the certificate expires, added as a second line in the urgent Slack alert. The step is built; waiting on a Gemini API outage to clear.
-- **Start the recipe** for the live 8 AM run.
-- **Clean up test artefacts** — the early test Slack messages and duplicate test incidents — before portfolio screenshots are taken.
+- **Live** — the recipe is Started; the 8 AM check runs daily.
+- **Gemini one-line risk note (parked)** — the urgent-branch HTTP call to Gemini was removed after repeated Google free-tier timeouts. The core alerts run without it; the note can be re-added later.
+- **Clean up test artefacts** — the early test Slack messages and duplicate test incidents — when convenient.
+
+## Screenshots
+
+![Recipe canvas](Recipe_flow.png)
+
+![Successful job run](Sucessful_job.png)
+
+![Slack alerts](Slack_message.png)
+
+![ServiceNow incidents](ServiceNow_incidents.png)
 
 ## Demo note
 
